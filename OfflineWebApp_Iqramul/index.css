@@ -1,0 +1,42 @@
+#container{
+	height:1000px;
+	width:100%;
+	box-sizing:border-box;
+}
+
+header{
+	background-color:pink;
+}
+
+.storages{
+    position:static;
+    width: 19.54%;
+    float: left;
+    height: 25%;
+    border-style: solid;
+    text-align: center;
+    background-color: lightgreen;
+    color:wheat;
+   
+}
+
+main{
+    height: 70%;
+
+}
+iframe{
+    width: 100%;
+    float: left;
+    height: 100%;
+    background-color:lightblue;
+   
+}
+
+a{
+	text-decoration: none;
+    color:darkblue;
+}
+a:hover{
+	color:violet;
+
+}

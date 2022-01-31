@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <script src="../scripts/jquery-3.3.1.min.js"></script>
+	    <link href="../css/MyWebSql.css" rel="stylesheet"/>
+        <script src="../js/MyWebSql.js"></script>
+    </head>
+    <body>
+         <div id="container">
+             <header style="text-align: center; font-size: 30px;">
+                 <b>Vendor Information</b>
+             </header>
+        <section id="input">
+            <h1>Add Vendor Info</h1>
+            <div id="dataArea">
+                <div>
+                    <label for="firstname">First Name : </label>
+                    <input type="text" id="firstname" name="firstname" />
+                </div>
+
+                <div>
+                    <label for="lastname">Last Name : </label>
+                    <input type="text" id="lastname" name="lastname" />
+                </div>
+
+                <div>
+                    <label for="email">Email : </label>
+                    <input type="text" id="email" name="email" />
+                </div>
+
+                <div>
+                    <label for="phoneNumber">Phone Number : </label>
+                    <input type="text" id="phonenumber" name="phonenumber" />
+                </div>
+
+            </div>
+            
+
+            <div id="btnArea">
+                <button id="btn" onclick="addContact()">Add</button>
+                <input type="button" value="Update Your Record" onclick="save()" />
+                <input type="hidden" id="id" value="" />
+            </div>
+
+        </section>
+        <section id="output">
+            <h1>View Vendor Info</h1>
+            <table id="contacts" border="1" cellspacing="0" style="width:100%">
+                <tr>
+                    <th>ID</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Phone Number</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                </tr>
+            </table>
+        </section>
+    </div>
+    </body>
+</html>
